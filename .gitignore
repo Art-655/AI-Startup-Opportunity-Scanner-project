@@ -1,0 +1,43 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Data and ML artifacts
+data/raw/
+data/processed/*
+!data/processed/.gitkeep
+models/*.pkl
+models/*.joblib
+models/*
+!models/.gitkeep
+chroma_db/
+data/chroma/
+*.csv
+
+# Secrets and local configuration
+.env
+.env.local
+.streamlit/secrets.toml
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter and generated reports
+.ipynb_checkpoints/
+reports/*.pdf
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
+reports/*.docx
+!reports/.gitkeep

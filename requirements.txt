@@ -1,0 +1,15 @@
+numpy==2.4.6
+pandas==2.2.2
+plotly==7.1.0
+streamlit==1.50.0
+scikit-learn==1.9.1
+xgboost==2.0.3
+shap==0.51.0
+matplotlib==3.8.4
+joblib==1.6.0
+bertopic==0.17.4
+sentence-transformers==5.1.0
+langchain-core==0.3.75
+langchain-google-genai==2.1.10
+langchain-chroma==0.2.5
+chromadb==1.0.20
